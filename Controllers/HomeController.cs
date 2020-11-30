@@ -12,6 +12,12 @@ namespace WebMVC.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult UPdate()
+        {
+            return View();
+        }
+
 
         public ActionResult About()
         {
